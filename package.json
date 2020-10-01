@@ -1,0 +1,38 @@
+{
+  "name": "payment-confirmation",
+  "version": "1.0.0",
+  "description": "Mini App",
+  "main": "./server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
+    "react-dev": "webpack -d -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carrieguan17/hrsf129-mini-apps-1.git"
+  },
+  "author": "Carrie Guan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carrieguan17/hrsf129-mini-apps-1/issues"
+  },
+  "homepage": "https://github.com/carrieguan17/hrsf129-mini-apps-1#readme"
+}
